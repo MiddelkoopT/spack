@@ -17,6 +17,7 @@ class PyRuamelYaml(PythonPackage):
 
     version('0.16.10', sha256='099c644a778bf72ffa00524f78dd0b6476bca94a1da344130f4bf3381ce5b954')
     version('0.16.5',  sha256='412a6f5cfdc0525dee6a27c08f5415c7fd832a7afcb7a0ed7319628aed23d408')
+    version('0.15.100',  sha256='8e42f3067a59e819935a2926e247170ed93c8f0b2ab64526f888e026854db2e4')
     version('0.11.7',  sha256='c89363e16c9eafb9354e55d757723efeff8682d05e56b0881450002ffb00a344')
 
     depends_on('python@2.7:2.8,3.5:', type=('build', 'run'))
