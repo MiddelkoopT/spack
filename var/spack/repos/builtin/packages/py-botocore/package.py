@@ -10,7 +10,7 @@ class PyBotocore(PythonPackage):
     """Low-level, data-driven core of boto 3."""
 
     homepage = "https://github.com/boto/botocore"
-    url      = "https://pypi.io/packages/source/b/botocore/botocore-1.13.44.tar.gz"
+    pypi = "botocore/botocore-1.13.44.tar.gz"
 
     version('2.0.0dev83', sha256='26d1af9607bc0f287ae548827c151c62517815435f90253b90b49f176c5b8903',
         url="https://github.com/boto/botocore/archive/717935472d7743be9cd170a6127a2a6c52d19c09.tar.gz")

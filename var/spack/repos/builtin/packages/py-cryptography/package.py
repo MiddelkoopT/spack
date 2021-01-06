@@ -12,9 +12,9 @@ class PyCryptography(PythonPackage):
        and primitives to Python developers"""
 
     homepage = "https://github.com/pyca/cryptography"
-    url      = "https://github.com/pyca/cryptography/archive/2.9.2.tar.gz"
+    pypi = "cryptography/cryptography-2.9.2.tar.gz"
 
-    version('2.9.2',   sha256='e3f02872235368649df78ceeb38c2d2c33745ace63682937098f11c59ec5b23a')
+    version('2.9.2',   sha256='a0c30272fb4ddda5f5ffc1089d7405b7a71b0b0f51993cb4e5dbb4590b2fc229')
     version('2.7',   sha256='e6347742ac8f35ded4a46ff835c60e68c22a536a8ae5c4422966d06946b6d4c6')
     version('2.3.1', sha256='8d10113ca826a4c29d5b85b2c4e045ffa8bad74fb525ee0eceb1d38d4c70dfd6')
     version('1.8.1', sha256='323524312bb467565ebca7e50c8ae5e9674e544951d28a2904a50012a8828190')
